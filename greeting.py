@@ -9,7 +9,6 @@ def main():
     greeting = greet(person)
 
     message = "this is a test"
-    # pylint: disable=unused-variable
     capitalized_message = capitalize_string(message)
 
     print(greeting)
