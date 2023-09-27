@@ -13,6 +13,7 @@ def main():
     capitalized_message = capitalize_string(message)
 
     print(greeting)
+    print(capitalized_message)
 
 if __name__ == "__main__":
     main()
