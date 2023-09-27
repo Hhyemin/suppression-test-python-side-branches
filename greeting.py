@@ -3,8 +3,7 @@ def greet(name):
 
 def main():
     person = "Alice"
-    greeting = greet(person)
-    print(greeting)
+    greet(person)
 
 if __name__ == "__main__":
     main()
