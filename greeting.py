@@ -8,9 +8,8 @@ def main():
     person = "Alice"
     greeting = greet(person)
 
-    message = "this is a test"
     # pylint: disable=unused-variable
-    capitalized_message = capitalize_string(message)
+    capitalized_message = capitalize_string(greeting)
 
     print(greeting)
     print(capitalized_message)
